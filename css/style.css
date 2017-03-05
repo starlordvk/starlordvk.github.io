@@ -122,32 +122,12 @@ h2{
  
 }
 
-#portfolio .item {
-  margin: 0 0 15px;
-  right: 0;
-    font-family:Roboto,arial;
-  font-weight:1000;
-  padding-bottom:50px;
-  padding-top:10px;
-}
+#portfolio{
+  
+background-image:url("http://cdn.pcwallart.com/images/macbook-keyboard-wallpaper-2.jpg");
 
-#portfolio .item .link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
+  }
 
-#portfolio .item .link .caption {
-  background: rgba(24, 188, 156, 0.9);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
 
 .group        { 
   position:relative; 
@@ -232,6 +212,9 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
+    background-color: #ffffff;
+    color:#f50057;
+    margin: 20px;
 }
 
 
@@ -241,4 +224,20 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 
 .container {
     padding: 2px 16px;
+}
+
+
+.icon-me {
+    font-size: 7.5em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
