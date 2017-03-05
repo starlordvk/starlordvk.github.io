@@ -124,7 +124,9 @@ h2{
 
 #portfolio{
   
-background-image:url("http://cdn.pcwallart.com/images/macbook-keyboard-wallpaper-2.jpg");
+background-image:url("1024x768-data-uploads-30-385039-gray-gradient-background.jpg");
+
+
 
   }
 
@@ -209,7 +211,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
     transition: 0.3s;
     width: 100%;
     background-color: #ffffff;
@@ -219,7 +221,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 
 .container {
@@ -240,4 +242,24 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   letter-spacing: 0.03em;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+
+
+
+
+#myfooter ul li {
+  display: inline;
+  padding: 0.4em;
+  font-size:1.5em;
+}
+
+#myfooter a:hover{
+/*  color: 939393 !important; */
+  color:#f50057;
+}
+
+#myfooter a {
+/*  color: #939393 !important; */
+  color:#ff9100; 
 }
