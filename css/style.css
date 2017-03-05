@@ -263,3 +263,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 /*  color: #939393 !important; */
   color:#ff9100; 
 }
+
+.myicon:hover{
+color:#ffffff;
+}
